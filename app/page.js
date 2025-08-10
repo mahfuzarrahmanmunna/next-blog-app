@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Headers from "@/components/Headers/Headers";
 
 export default function Home() {
   return (
-    <main>
-
-    </main>
+    <>
+      <Headers />
+    </>
   );
 }
